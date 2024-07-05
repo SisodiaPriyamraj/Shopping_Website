@@ -6,20 +6,21 @@
 }
 
 h1{
-    font-size: 50px;
-    line-height: 64px;
-    color: #222;
+    font-size: 60px;
+    line-height: 70px;
+    color: #301717;
+    padding-bottom: 0;
 }
 
 h2{
     font-size: 46px;
     line-height: 54px;
-    color: #222;
+    color: #000000;
 }
 
 h4{
-    font-size: 20px;
-    color: #222;
+    font-size: 30px;
+    color: #41b318;
 }
 
 h6{
@@ -35,7 +36,7 @@ p{
 }
 
 .section-p1{
-    padding: 40px 80px;
+    padding: 40px 60px;
 }
 
 .section-m1{
@@ -47,17 +48,21 @@ body{
 }
 
 .logo{
-    width: 150px;
-    height: 100px;
+    width: 125px;
+    height: 75px;
 }
 
 #header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80px;
+    padding: 20px 40px;
     background: rgb(202, 241, 235);
     box-shadow: 0 4px 8px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar{
@@ -96,3 +101,40 @@ body{
     left: 20px
 }
 
+#main{
+    background-image: url("./images/main_image.avif");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 10% bottom 20%;
+    padding: 100px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#main h4{
+    padding-bottom: 12px;
+}
+
+#main h1{
+    color: #0037ff;
+}
+
+#main button{
+    background-image: url("./images/button_image.jpg");
+    /* background-color: transparent; */
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(4, 222, 0);
+    border: 0;
+    padding: 14px 40px 14px 40px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+.fe-box img{
+    width: 70px;
+    height: 70px;
+}
