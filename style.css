@@ -319,3 +319,19 @@ button.normal:hover{
     color: white;
 }
 
+#sm-banner h4{
+    color: #000000;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url("./images/banner_1.jpg");
+    width: 55%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
