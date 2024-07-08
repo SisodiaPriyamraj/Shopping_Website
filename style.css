@@ -135,6 +135,39 @@ body{
 }
 
 .fe-box img{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 90px;
 }
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 20px 8px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border: 2px solid #38e879;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover{
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.6);
+    color: rgb(53, 7, 7);
+    border: solid #90cea0;
+}
+
+#feature .fe-box h6{
+    display: inline-blocks;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    background-color: #ffb1c2;
+}
+
