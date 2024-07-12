@@ -539,9 +539,7 @@ footer a{
     margin-bottom: 1    0px;
 }
 
-/* footer i{
-    font-size: 28px;
-} */
+
 
 .icon{
     font-size: 1.8rem;
@@ -559,6 +557,14 @@ footer a{
 footer .follow i:hover, footer a:hover{
     color: #0037ff;
 }
+
+
+/* ----------SHOP CSS---------- */
+
+#page-header{
+
+}
+
 
 @media (max-width:799px){
 
