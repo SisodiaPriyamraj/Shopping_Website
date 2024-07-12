@@ -593,6 +593,84 @@ footer .follow i:hover, footer a:hover{
     font-weight: 600;
 }
 
+/* ----------single-product-css */
+
+#prodetails{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+}
+
+
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+     cursor: pointer; 
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding: 30px;
+}
+
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+    
+}
+
+#prodetails .single-pro-details h2{
+    font-size: 30px;
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 40px;
+    padding-left: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+
+#prodetails .single-pro-details button{
+    background-color: #23aba2;
+    color: #fff;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 30px;
+}
+
+.section-p1 p{
+    color: #6b6363;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
 
 
 @media (max-width:799px){
